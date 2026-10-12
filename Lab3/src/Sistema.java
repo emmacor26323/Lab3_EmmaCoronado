@@ -62,6 +62,7 @@ public class Sistema {
 				ingresos += t.cotizar();
 				t.Setestado("en cola"); //Agrega ingresos y cambia estado
 				e = true;
+				trabajos.add(t);
 			}
 		}
 		if(e==false){
