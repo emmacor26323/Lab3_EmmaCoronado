@@ -8,7 +8,7 @@ public class Principal {
 		System.out.println("¡Bienvenido!");
 
 		int op = 0;
-		while(op != 13){
+		while(op != 11){
 			try{
 			System.out.println("-----------------------Menu------------------------------");
 			System.out.println("1. Cotizar/registrar Trabajo\n2. Registrar nodo\n3. Crear Lote\n4. Asignar Trabajo\n5. Asignar Lote\n6. Retirar Trabajo\n7. Iniciar Lote\n8. Buscar Trabajo\n9. Buscar Nodo\n10.Reportes\n11. Salir");
